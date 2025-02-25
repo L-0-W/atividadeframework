@@ -1,0 +1,33 @@
+.topbar {
+  background: rgb(111, 66, 193);
+  /* Cor mais vibrante e moderna */
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.topbar .site-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.topbar .links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 400;
+  transition: opacity 0.3s;
+}
+
+.topbar .links a:hover {
+  opacity: 0.7;
+}
+

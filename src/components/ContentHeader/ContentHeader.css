@@ -1,0 +1,12 @@
+.content-header {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 20px;
+}
+
+.content-header h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #bb86fc;
+  /* Cor de destaque para o texto */
+}
